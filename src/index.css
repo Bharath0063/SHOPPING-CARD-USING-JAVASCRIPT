@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.rounder {
+  flex: 1 1 30%; 
+  max-width: 300px; 
+  margin: 20px;
+  border: 2px solid brown;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(232, 157, 227);
+}
+
+img {
+  border: 2px solid black;
+  height: 200px;
+  width: 100%; 
+  border-radius: 5px;
+}
+
+.name {
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 55px;
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+  background: linear-gradient(90deg, #ff0047, #ff7e00, #f3ff00, #00ffa7, #007bff, #ff00f5);
+  background-size: 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientShift 3s ease infinite, bounce 1.5s ease infinite;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.count {
+  color: black;
+  font-weight: 600;
+  margin-top: -1px;
+  font-size: 22px; 
+  margin-bottom: 0%; 
+}
+
+span {
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+button {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.one, .two {
+  border-radius: 100%;
+  border: 2px solid red;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+}
+
+.three {
+  margin-top: 5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(188, 210, 210);
+  font-size: 20px;
+}
+.finish {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: rgb(0, 0, 0);
+  padding: 15px 30px;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+  width: 250px;
+}
+
+.finish:hover {
+  background-color: #45a049;
+}
+.result {
+ 
+  background-color: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 200px auto;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feedback {
+  color: #0b61b8;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.totalfruits {
+  color: #05332a;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.amount {
+  color: #e74c3c;
+  font-size: 28px;
+  font-weight: 700;
+}
+.final {
+ 
+  bottom: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: rgb(80, 20, 201);
+  padding: 15px 30px;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1000;
+  width: 250px;
+}
+
+.final:hover {
+  background-color: #45a049;
+}
+

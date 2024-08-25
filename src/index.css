@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -47,27 +48,6 @@ img {
   transition: all 0.3s ease-in-out;
 }
 
-@keyframes gradientShift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-}
-
 .count {
   color: black;
   font-weight: 600;
@@ -103,6 +83,7 @@ button {
   background-color: rgb(188, 210, 210);
   font-size: 20px;
 }
+
 .finish {
   position: fixed;
   bottom: 20px;
@@ -119,11 +100,7 @@ button {
   width: 250px;
 }
 
-.finish:hover {
-  background-color: #45a049;
-}
 .result {
- 
   background-color: #f9f9f9;
   border: 2px solid #ddd;
   border-radius: 10px;
@@ -153,8 +130,8 @@ button {
   font-size: 28px;
   font-weight: 700;
 }
+
 .final {
- 
   bottom: 20px;
   right: 20px;
   background-color: #4CAF50;
@@ -169,7 +146,102 @@ button {
   width: 250px;
 }
 
-.final:hover {
-  background-color: #45a049;
+
+@media (max-width: 768px) {
+  .rounder {
+    flex: 1 1 45%; 
+    max-width: 250px;
+    padding: 15px;
+  }
+
+  .name {
+    font-size: 45px;
+  }
+
+  .count {
+    font-size: 20px;
+  }
+
+  .finish {
+    font-size: 25px;
+    padding: 12px 25px;
+    width: 220px;
+  }
+
+  .result {
+    margin: 100px auto;
+    padding: 15px;
+    max-width: 90%;
+  }
+
+  .feedback {
+    font-size: 35px;
+  }
+
+  .totalfruits, .amount {
+    font-size: 24px;
+  }
+
+  .final {
+    font-size: 20px;
+    padding: 12px 25px;
+    width: 220px;
+  }
 }
 
+
+@media (max-width: 480px) {
+  .rounder {
+    flex: 1 1 100%;
+    max-width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .name {
+    font-size: 35px;
+    margin: 10px 0;
+  }
+
+  .count {
+    font-size: 18px;
+  }
+
+  .one, .two {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+  }
+
+  .three {
+    width: 80px;
+    height: 25px;
+    font-size: 18px;
+  }
+
+  .finish {
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 200px;
+  }
+
+  .result {
+    margin: 50px auto;
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .feedback {
+    font-size: 28px;
+  }
+
+  .totalfruits, .amount {
+    font-size: 20px;
+  }
+
+  .final {
+    font-size: 18px;
+    padding: 10px 20px;
+    width: 200px;
+  }
+}

@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/SHOPPING-CARD-USING-JAVASCRIPT/static/css/main.dbf33118.css",
-    "main.js": "/SHOPPING-CARD-USING-JAVASCRIPT/static/js/main.b4c229ba.js",
-    "static/media/download (13).jpeg": "/SHOPPING-CARD-USING-JAVASCRIPT/static/media/download (13).bf6f83eb432d579ae93d.jpeg",
-    "index.html": "/SHOPPING-CARD-USING-JAVASCRIPT/index.html",
-    "main.dbf33118.css.map": "/SHOPPING-CARD-USING-JAVASCRIPT/static/css/main.dbf33118.css.map",
-    "main.b4c229ba.js.map": "/SHOPPING-CARD-USING-JAVASCRIPT/static/js/main.b4c229ba.js.map"
+    "main.css": "/Bharath0063/SHOPPING-CARD-USING-JAVASCRIPT.git/static/css/main.304187cc.css",
+    "main.js": "/Bharath0063/SHOPPING-CARD-USING-JAVASCRIPT.git/static/js/main.5a6d4cab.js",
+    "static/media/download (13).jpeg": "/Bharath0063/SHOPPING-CARD-USING-JAVASCRIPT.git/static/media/download (13).bf6f83eb432d579ae93d.jpeg",
+    "index.html": "/Bharath0063/SHOPPING-CARD-USING-JAVASCRIPT.git/index.html",
+    "main.304187cc.css.map": "/Bharath0063/SHOPPING-CARD-USING-JAVASCRIPT.git/static/css/main.304187cc.css.map",
+    "main.5a6d4cab.js.map": "/Bharath0063/SHOPPING-CARD-USING-JAVASCRIPT.git/static/js/main.5a6d4cab.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbf33118.css",
-    "static/js/main.b4c229ba.js"
+    "static/css/main.304187cc.css",
+    "static/js/main.5a6d4cab.js"
   ]
 }
